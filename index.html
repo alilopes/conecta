@@ -10,68 +10,64 @@
   <body>
     <header class="header-container">
       <img src="./img/logo-header.svg" alt="logo-header" />
-      <div class="search"></div>
-      <form>
-        <input
-          class="search-bar"
-          type="text"
-          name="submit"
-          placeholder="Pesquisar profissionais..."
-          required
-          maxlength="254"
-        />
-        <input
-          class="search-button"
-          type="submit"
-          name="submit"
-          value="Buscar"
-        />
+      <form class="search">
+          <input
+            class="search-bar"
+            type="text"
+            name="submit"
+            placeholder="Pesquisar profissionais..."
+            required
+            maxlength="254"
+          />
+          <input
+            class="search-button"
+            type="submit"
+            name="submit"
+            value="Buscar"
+          />
       </form>
+      <p></p>
       <nav class="header-buttons">
         <button class="button-header">Como funciona</button>
         <button class="button-header">Login</button>
         <button class="button-header">Cadastre-se</button>
       </nav>
     </header>
-    <section class="mega-banner">
-      <img src="" alt="" />
-    </section>
-    <section class="business-data">
-      <div class="data1">
-        <p>Número de empreendedores cadastrados:</p>
+    <main class="main-container">
+        <div class="mega-banner">
+          <img src="./img/banner-prov.png" alt="banner" />
+        </div>
+        <div class="data-blocks">
+          <div class="data1">Número de empreendedores cadastrados:</>
+          <div class="data2">Número de contatos realizados:</>
+          <div class="data3">Valor gerado pelos serviços:</>
+        </div>
+        <section class="professional-categories">
+          <h3>Encontre profissinais talentosos para:</h3>
+          <nav class="categories-buttons">
+            <button class="button-categories">Cabelos e Barbearia</button>
+            <button class="button-categories">Cuidados com a Pele</button>
+            <button class="button-categories">Depilação</button>
+            <button class="button-categories">Manicure e Pedicure</button>
+            <button class="button-categories">Massoterapia</button>
+            <button class="button-categories">SPA</button>
+            <button class="button-categories">Todas as cateogrias</button>
+          </nav>
+        </section>
+        <section class="how-it-works">
+          <h3>Como funciona?</h3>
+          <div class="client-sign">
+            <p>Cliente</p>
+            <button class="sign">Cadastre-se</button>
+          </div>
+          <div class="enterpreneur-sign">
+            <p>Empreendedores</p>
+            <button class="sign">Cadastre-se</button>
+          </div>
+        </section>
       </div>
-      <div class="data2">
-        <p>Número de contatos realizados:</p>
-      </div>
-      <div class="data3">
-        <p>Valor gerado pelos serviços:</p>
-      </div>
-    </section>
-    <section class="professional-categories">
-      <h2>Encontre profissinais talentosos para:</h2>
-      <nav class="categories-buttons">
-        <button class="button-categories">Cabelos e Barbearia</button>
-        <button class="button-categories">Cuidados com a Pele</button>
-        <button class="button-categories">Depilação</button>
-        <button class="button-categories">Manicure e Pedicure</button>
-        <button class="button-categories">Massoterapia</button>
-        <button class="button-categories">SPA</button>
-        <button class="button-categories">Todas as cateogrias</button>
-      </nav>
-    </section>
-    <section class="how-it-works">
-      <h2>Como funciona?</h2>
-      <div class="client-sign">
-        <p>Cliente</p>
-        <button class="sign">Cadastre-se</button>
-      </div>
-      <div class="enterpreneur-sign">
-        <p>Empreendedores</p>
-        <button class="sign">Cadastre-se</button>
-      </div>
-    </section>
-    <footer>
-      <section class="footer-container">
+    </main>
+    <footer class="footer-container">
         <div class="footer-links">
           <ul class="institutional-links">
             <p>Institucional</p>
